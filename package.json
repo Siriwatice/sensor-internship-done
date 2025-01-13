@@ -1,0 +1,55 @@
+{
+  "name": "sensor-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.5.2",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.1",
+    "@mui/x-data-grid": "^7.23.6",
+    "antd": "^5.23.0",
+    "apexcharts": "^4.3.0",
+    "chart.js": "^4.4.7",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "cors": "^2.8.5",
+    "cra-template": "1.2.0",
+    "date-fns": "^4.1.0",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.7.0",
+    "react-calendar-heatmap": "^1.9.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.2.0",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@webpack-cli/serve": "^3.0.1",
+    "react-scripts": "^5.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
