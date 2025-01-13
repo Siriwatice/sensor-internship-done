@@ -1,0 +1,105 @@
+  
+  .custom-button-group button.selected {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+  }
+  
+  .custom-button-group-secondary button.selected {
+    background-color: #d1c4e9; /* สีของกลุ่มเวลาที่เลือก */
+    color: #4a148c;
+    border-color: #ab47bc;
+  }
+
+
+
+  .date-picker-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+  }
+  
+  .date-picker-group input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+    width: 150px;
+    transition: all 0.3s ease;
+  }
+  
+  .date-picker-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  .date-picker-label {
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .menu-toggle-button {
+    font-size: 25px !important;
+    color: #1890ff; /* สีของไอคอน */
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .summary-card-container .MuiCard-root {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: linear-gradient(to right, #ffffff, #f7f7f7);
+  }
+  
+
+  .custom-button-group button:hover {
+    background-color: #e0f7fa;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  .card-container-total {
+    border: 2px solid #0056b3; /* สีขอบของ Card */
+    border-radius: 8px; /* มุมโค้งของ Card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงา */
+  }
+  
+  .card-container-total .MuiTypography-root {
+    color: #0056b3; /* สีตัวอักษรใน Card */
+    font-weight: bold; /* ตัวหนา */
+  }
+  .card-container-Ave {
+    border: 2px solid #c1b81f; /* สีขอบของ Card */
+    border-radius: 8px; /* มุมโค้งของ Card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงา */
+  }
+  
+  .card-container-Ave .MuiTypography-root {
+    color: #c1b81f; /* สีตัวอักษรใน Card */
+    font-weight: bold; /* ตัวหนา */
+  }
+  .card-container-max {
+    border: 2px solid #b30000; /* สีขอบของ Card */
+    border-radius: 8px; /* มุมโค้งของ Card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงา */
+  }
+  
+  .card-container-max .MuiTypography-root {
+    color: #b30000; /* สีตัวอักษรใน Card */
+    font-weight: bold; /* ตัวหนา */
+  }
+  .card-container-min {
+    border: 2px solid #00b336; /* สีขอบของ Card */
+    border-radius: 8px; /* มุมโค้งของ Card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* เงา */
+  }
+  
+  .card-container-min .MuiTypography-root {
+    color: #00b336; /* สีตัวอักษรใน Card */
+    font-weight: bold; /* ตัวหนา */
+  }
+  
